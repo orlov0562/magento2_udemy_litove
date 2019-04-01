@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @var \Learning\FirstUnit\Block\HelloWorld\Index $block
+ */
+
+?>
+
+<?php /* @escapeNotVerified */ echo $block->getCurrentTimestampLabel()?>:
+<span id="timestamp" title="<?=__('Click to update')?>">?</span>
+
+<?php
+$ajaxurl = $block->getTimeActionUrl();
+?>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Learning_FirstUnit/js/helloworld/index": {
+            "AjaxUrl": "<?php /* @escapeNotVerified */ echo $ajaxurl; ?>"
+        }
+    }
+}
+</script>

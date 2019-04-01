@@ -1,0 +1,23 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="learning-first-unit" frontName="learning-first-unit">
+            <module name="Learning_FirstUnit"/>
+        </route>
+    </router>
+</config>
+
+<!--
+
+<router id="%routerId%">
+    <route id="%routeId%" frontName="%frontName%">
+        <module name="%moduleName%"/>
+    </route>
+</router>
+
+%routerId - specifies the name of the router in Magento.
+            See the reference tables in the Router class section.
+%routeId% - specifies the unique node id for this route in Magento.
+%frontName% - specifies the first segment after the base URL of a request.
+%moduleName% - specifies the name of your module.
+
+-->

@@ -1,0 +1,8 @@
+Setup/InstallSchema
+Setup/UpgradeSchema
+
+Setup/InstallData
+Setup/UpgradeData
+
+Setup/Recurring
+Setup/Uninstall
