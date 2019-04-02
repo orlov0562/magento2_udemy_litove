@@ -76,6 +76,11 @@ class Index extends \Magento\Framework\App\Action\Action {
 
         // --------------------------------------------------
 
-
+        /*
+        $eventData = 'Testing';
+        $this->_eventManager->dispatch('my_module_event_after', [
+            'myEventData' => $eventData,
+        ]);
+        */
     }
 }
